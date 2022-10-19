@@ -23,7 +23,6 @@
                     </div>
                 </div>
             </#if>
-            <#if user.editEmailAllowed>
                 <div class="${properties.kcFormGroupClass!}">
                     <div class="${properties.kcLabelWrapperClass!}">
                         <label for="email" class="${properties.kcLabelClass!}">${msg("email")}</label>
@@ -41,7 +40,6 @@
                         </#if>
                     </div>
                 </div>
-            </#if>
 
             <div class="${properties.kcFormGroupClass!}">
                 <div class="${properties.kcLabelWrapperClass!}">
