@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="col-sm-10 col-md-10">
-                    <input type="text" class="form-control" id="username" name="username" disabled="disabled" value="${(account.username!'')}"/>
+                    <input type="text" class="form-control" id="username" name="username" disabled value="${(account.username!'')}"/>
                 </div>
             </div>
         </#if>

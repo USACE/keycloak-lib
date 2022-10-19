@@ -11,8 +11,7 @@
                     </div>
                     <div class="${properties.kcInputWrapperClass!}">
                         <input type="text" id="username" name="username" value="${(user.username!'')}"
-                               class="${properties.kcInputClass!}"
-                               disabled="disabled"
+                               class="${properties.kcInputClass!}" disabled
                                aria-invalid="<#if messagesPerField.existsError('username')>true</#if>"
                         />
 
