@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <form action="/account" class="form-horizontal" method="post">
+    <form action="/auth/realms/cwbi/account" class="form-horizontal" method="post">
 
         <input type="hidden" id="stateChecker" name="stateChecker" value="${stateChecker}">
 
