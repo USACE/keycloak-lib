@@ -18,7 +18,7 @@
             <link href="${url.resourcesPath}/${style}" rel="stylesheet" />
         </#list>
     </#if>
-    <#if properties.scripts?has_content>
+    <#if properties.scripts?has_content> 
         <#list properties.scripts?split(' ') as script>
             <script type="text/javascript" src="${url.resourcesPath}/${script}"></script>
         </#list>
